@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BaseRotateTurret.cs">
+    <Files>
+      <File FileName="Assets\Scripts\RotateTurret.cs" Line="8" Column="1" />
+      <File FileName="Assets\Scripts\MoveTank.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Und0Velocity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Throw.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SelfDestruct.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LifesLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BaseRotateTurret.cs" Line="8" Column="29" />
+      <File FileName="Assets\Scripts\EnemyRotateTurret.cs" Line="10" Column="52" />
+      <File FileName="Assets\Scripts\EnemyShoot.cs" Line="53" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
