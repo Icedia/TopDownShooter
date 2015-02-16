@@ -7,7 +7,9 @@ public class EnemyRotateTurret : BaseRotateTurret {
 
 	// Update is called once per frame
 	override protected void Update () {
-		targetPos = player.position + Vector3.up * 1.33f;
-		base.Update ();
+		if (player != null) {
+			targetPos = player.position + Vector3.up * 1.33f;
+			base.Update ();
+		}
 	}
 }

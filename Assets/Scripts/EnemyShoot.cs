@@ -12,7 +12,7 @@ public class EnemyShoot : MonoBehaviour {
 	void Start () {
 		reloadTime = 0;
 
-		Transform[] transforms = this.gameObject.GetComponentInChildren<Transform> ();
+		Transform transforms = this.gameObject.GetComponentInChildren<Transform> ();
 		foreach (Transform t in transforms) 
 		{
 			if(t.gameObject.name == "turret")
@@ -47,10 +47,9 @@ public class EnemyShoot : MonoBehaviour {
 		if (Physics.Raycast (myRay, out hitInfo, shootingRange)) 
 		{
 			string hitObjectName = hitInfo.collider.gameObject.name;
-
 			if(hitObjectName == "Tank")
 			{
-				Instantiate(bulletPrefab, nozzel.position, nozzelrotation);
+				Instantiate(bulletPrefab, nozzel.position, nozzel.rotation);
 
 				reloadTime = 0f;
 			}
