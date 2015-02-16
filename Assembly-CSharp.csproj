@@ -52,6 +52,14 @@
      <Compile Include="Assets\Scripts\LifesLeft.cs" />
      <Compile Include="Assets\Scripts\MoveBullet.cs" />
      <Compile Include="Assets\Scripts\MoveTank.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\DestructableObject.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Tank.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\TempObject.cs" />
+     <Compile Include="Assets\Scripts\OOp scripts\Wall.cs" />
      <Compile Include="Assets\Scripts\RotateTurret.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\Throw.cs" />
